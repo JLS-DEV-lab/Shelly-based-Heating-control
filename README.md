@@ -1,6 +1,6 @@
 # Shelly-based-Heating-control
 
-![Shelly-based-heating-control](https://user-images.githubusercontent.com/84477969/202443808-e8451ac1-2c5e-4bba-a163-3f712dd19e5e.svg)
+![Shelly-based-heating-control](https://img.shields.io/github/issues/JLS-DEV-lab/Shelly-based-heating-control?style=for-the-badge)
 
 Shelly Pro 4PM automated Heating control for a shared office solution.
 
