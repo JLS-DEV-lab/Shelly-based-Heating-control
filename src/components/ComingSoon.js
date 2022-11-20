@@ -11,7 +11,7 @@ const ComingSoon = () => {
         <div className="logo">SOSA</div>
         <div className="info">
           Die Website wird derzeit überarbeitet
-          <h1 className="capitalize">Marvin ist der geilste. Wir sind demnächst für Sie in <span className="color">Amorbach</span> verfügbar</h1>
+          <h1 className="capitalize">Wir sind demnächst nicht für Sie in <span className="color">Amorbach</span> verfügbar</h1>
           <h2 className="capitalize margin-top color">shared office solutions amorbach</h2>
           <div className="more-info margin-top">
             Weitere Informationen
