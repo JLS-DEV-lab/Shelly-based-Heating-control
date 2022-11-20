@@ -16,7 +16,7 @@
     if($mysqli->connect_errno > 0) {
         die('Error while connecting: '.$mysqli->connect_error);
     } else {    
-        $query = "SELECT * from bookings";
+        $query = "SELECT * from booking_models";
         $result = $mysqli->query($query);
         while($row = $result->fetch_assoc()){
             array_push($data, $row);
