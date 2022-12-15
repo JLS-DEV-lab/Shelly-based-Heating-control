@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider, Route, createRoutesFromElements } from 'react-router-dom';
 import './index.css';
-import ComingSoon from './components/ComingSoon';
+import { ComingSoon, ErrorPage, Hero } from './components/';
+
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route errorElement={<ErrorPage />}>
+    <Route path="/comingsoon" element={<ComingSoon />} />
+    <Route index path="/" element={<Hero />} />
+  </Route>
+));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <ComingSoon />
-  </React.StrictMode>
+    <RouterProvider router={router} />
 );
